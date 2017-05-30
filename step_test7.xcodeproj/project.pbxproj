@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8401946F1EDD847500F0F145 /* cblpTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8401946E1EDD847500F0F145 /* cblpTableViewController.m */; };
 		845964391EDC32E50086019B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 845964381EDC32E50086019B /* main.m */; };
 		8459643C1EDC32E50086019B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8459643B1EDC32E50086019B /* AppDelegate.m */; };
 		845964421EDC32E50086019B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 845964401EDC32E50086019B /* Main.storyboard */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8401946D1EDD847500F0F145 /* cblpTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cblpTableViewController.h; sourceTree = "<group>"; };
+		8401946E1EDD847500F0F145 /* cblpTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cblpTableViewController.m; sourceTree = "<group>"; };
 		845964341EDC32E50086019B /* step_test7.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = step_test7.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		845964381EDC32E50086019B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8459643A1EDC32E50086019B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -105,6 +108,8 @@
 				8459643B1EDC32E50086019B /* AppDelegate.m */,
 				8459646A1EDC33520086019B /* cblpViewController.h */,
 				8459646B1EDC33520086019B /* cblpViewController.m */,
+				8401946D1EDD847500F0F145 /* cblpTableViewController.h */,
+				8401946E1EDD847500F0F145 /* cblpTableViewController.m */,
 				845964401EDC32E50086019B /* Main.storyboard */,
 				845964431EDC32E50086019B /* Assets.xcassets */,
 				845964451EDC32E50086019B /* LaunchScreen.storyboard */,
@@ -273,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8401946F1EDD847500F0F145 /* cblpTableViewController.m in Sources */,
 				8459643C1EDC32E50086019B /* AppDelegate.m in Sources */,
 				8459646C1EDC33520086019B /* cblpViewController.m in Sources */,
 				845964391EDC32E50086019B /* main.m in Sources */,
@@ -507,6 +513,7 @@
 				845964631EDC32E60086019B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		845964641EDC32E60086019B /* Build configuration list for PBXNativeTarget "step_test7Tests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +522,7 @@
 				845964661EDC32E60086019B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		845964671EDC32E60086019B /* Build configuration list for PBXNativeTarget "step_test7UITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +531,7 @@
 				845964691EDC32E60086019B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

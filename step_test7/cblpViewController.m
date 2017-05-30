@@ -7,6 +7,7 @@
 //
 
 #import "cblpViewController.h"
+#import "cblpTableViewController.h"
 
 @interface cblpViewController ()
 
@@ -30,6 +31,12 @@
 
 - (UITableViewCell *) tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     UITableViewCell * cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"ID"];
+    
+   static NSString *cblpCellIdentifier = @"cblpUniqCell";
+    
+    UITableViewCell *Cblpcell = [tableView dequeueReusableCellWithIdentifier:cblpCellIdentifier];
+
+    
     
     cell.textLabel.text = @"qwe";
     
